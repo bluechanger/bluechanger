@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Changer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="BlueChanger.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="title" onclick="changeStyles()">Blue Changer</h1>
+    </header>
+
+    <div class="widget">
+        <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=FFFFFF&darkMode=false&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=005da7d3c4aa31&locales=true&logo=false&primaryColor=3E90FC&to=eth&toFiat=eth&toTheMoon=true' style="height: 356px; width: 100%; border: none"></iframe>
+        <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+    </div>
+
+    <footer class="footer"><a href="https://t.me/BlueChanger" class="telegram-username" target="_blank">@BlueChanger</a></footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
